@@ -2,4 +2,4 @@
 # VERSION: 3.0
 SETUVAR __fish_initialized:4300
 SETUVAR fish_greeting:
-SETUVAR fish_user_paths:/home/ashish/\x2elocal/bin
+SETUVAR fish_user_paths:/home/ashish/\x2ecargo/bin\x1e/home/ashish/\x2envm/versions/node/v24\x2e13\x2e1/bin\x1e/home/ashish/AppImages\x1e/home/ashish/\x2elocal/bin
