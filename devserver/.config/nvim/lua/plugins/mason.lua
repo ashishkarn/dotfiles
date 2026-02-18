@@ -33,6 +33,13 @@ return {
 					map("<leader>ca", vim.lsp.buf.code_action, "Code action")
 					map("]d", vim.diagnostic.goto_next, "Next diagnostic")
 					map("[d", vim.diagnostic.goto_prev, "Prev diagnostic")
+					map("<leader>dy", function()
+						local diags = vim.diagnostic.get(0, { lnum = vim.fn.line('.') - 1 })
+						if diags[1] then
+							vim.fn.setreg('+', diags[1].message)
+							vim.notify("Diagnostic copied")
+						end
+					end, "Copy diagnostic message")
 				end,
 			})
 		end,
