@@ -5,8 +5,7 @@ return {
 	priority = 1000,
 	build = ":TSUpdate",
 	config = function()
-	    require("nvim-treesitter").setup({
-	    })
+	    require("nvim-treesitter").setup({})
 
 	    require("nvim-treesitter").install({
 		"c", "lua", "vim", "vimdoc", "query", "markdown", "markdown_inline",
