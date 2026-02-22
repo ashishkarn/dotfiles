@@ -1,87 +1,89 @@
-base
-base-devel
-bat
-bitwarden
-bluetui
-bluez
-bluez-utils
-bottom
-btop
-cava
-clang
-cliphist
-efibootmgr
-exfat-utils
-fastfetch
-fd
-figlet
-firefox
-fish
-foot
-fuzzel
-fzf
-git
-gnome-themes-extra
-go
-grim
-grub
-gst-plugins-ugly
-htop
-hyprland
-hyprlauncher
-hyprpolkitagent
-intel-ucode
-inxi
-lazygit
-less
-lib32-nvidia-utils
-lib32-vulkan-intel
-linux
-linux-firmware
-mako
-man-db
-man-pages
-nano
-neovim
-network-manager-applet
-networkmanager
-ntfs-3g
-nvidia-open
-nvidia-prime
-nvidia-settings
-nvidia-utils
-optimus-manager-git
-os-prober
-pavucontrol
-pipewire
-pipewire-pulse
-qpdf
-ripgrep
-rsync
-rustup
-s-tui
-slurp
-starship
-stow
-sudo
-swww
-terminus-font
-thunar
-tlp
-tlp-rdw
-tmux
-tree
-ttf-firacode-nerd
-ttf-jetbrains-mono-nerd
-ufw
-unzip
-vim
-vulkan-intel
-waybar
-wget
-wireplumber
-wl-clipboard
-woff2-font-awesome
-xdg-desktop-portal-gtk
-xdg-desktop-portal-hyprland
-yay
+base 3-3
+base-devel 1-2
+bat 0.26.1-2
+bitwarden 2025.10.0-1
+bluetui 0.8.1-1
+bluez 5.86-2
+bluez-utils 5.86-2
+bottom 0.12.3-2
+btop 1.4.6-1
+cava 0.10.7-1
+clang 21.1.8-1
+cliphist 1:0.7.0-2
+efibootmgr 18-3
+exfat-utils 1.4.0-4
+fastfetch 2.59.0-1
+fd 10.3.0-2
+figlet 2.2.5-6
+firefox 147.0.4-1
+fish 4.5.0-2
+foot 1.25.0-1
+fuzzel 1.14.0-2
+fzf 0.68.0-1
+git 2.53.0-1
+gnome-themes-extra 1:3.28-1
+go 2:1.26.0-1
+grim 1.5.0-2
+grub 2:2.14-1
+gst-plugins-bad 1.28.0-2
+gst-plugins-ugly 1.28.0-2
+htop 3.4.1-1
+hyprland 0.53.3-2
+hyprlauncher 0.1.5-2
+hyprpolkitagent 0.1.3-4
+intel-ucode 20260210-1
+inxi 3.3.40.1-1
+lazygit 0.59.0-1
+less 1:692-1
+lib32-nvidia-utils 590.48.01-1
+lib32-vulkan-intel 1:26.0.0-1
+linux 6.18.9.arch1-2
+linux-firmware 20260110-1
+mako 1.10.0-1
+man-db 2.13.1-1
+man-pages 6.17-1
+nano 8.7.1-1
+neovim 0.11.6-1
+network-manager-applet 1.36.0-1
+networkmanager 1.54.3-1
+ntfs-3g 2022.10.3-2
+nvidia-open 590.48.01-12
+nvidia-prime 1.0-5
+nvidia-settings 590.48.01-1
+nvidia-utils 590.48.01-4
+optimus-manager-git 4:813.python3.14-1
+os-prober 1.83-1
+pavucontrol 1:6.2-1
+pipewire 1:1.4.10-2
+pipewire-pulse 1:1.4.10-2
+qpdf 12.3.2-2
+ripgrep 15.1.0-2
+rsync 3.4.1-2
+rustup 1.28.2-4
+s-tui 1.3.0-1
+slurp 1.5.0-1
+starship 1.24.2-2
+stow 2.4.1-1
+sudo 1.9.17.p2-2
+swww 0.11.2-1
+terminus-font 4.49.1-8
+thunar 4.20.7-1
+tlp 1.9.1-1
+tlp-rdw 1.9.1-1
+tmux 3.6_a-1
+tree 2.3.1-1
+ttf-firacode-nerd 3.4.0-2
+ttf-jetbrains-mono-nerd 3.4.0-2
+ufw 0.36.2-7
+unzip 6.0-23
+vim 9.2.0038-1
+vulkan-intel 1:25.3.5-1
+waybar 0.15.0-1
+wget 1.25.0-3
+wiremix 0.9.0-1
+wireplumber 0.5.13-1
+wl-clipboard 1:2.2.1-3
+woff2-font-awesome 7.2.0-1
+xdg-desktop-portal-gtk 1.15.3-1
+xdg-desktop-portal-hyprland 1.3.11-3
+yay 12.5.7-1
