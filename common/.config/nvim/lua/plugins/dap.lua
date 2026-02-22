@@ -7,6 +7,7 @@ return {
 			vim.keymap.set("n", "<F10>", function() dap.step_over() end, { desc = "DAP Step Over" })
 			vim.keymap.set("n", "<F11>", function() dap.step_into() end, { desc = "DAP Step Into" })
 			vim.keymap.set("n", "<F12>", function() dap.step_out() end, { desc = "DAP Step Out" })
+			vim.keymap.set("n", "<F8>", function() dap.terminate() end, { desc = "DAP Terminate" })
 			vim.keymap.set("n", "<leader>db", function() dap.toggle_breakpoint() end, { desc = "DAP Toggle Breakpoint" })
 		end,
 	},
