@@ -3,6 +3,10 @@ vim.keymap.set("n", "<leader>cd", vim.cmd.Ex, { desc = "Open file explorer" })
 vim.keymap.set("n", "<C-d>", "<C-d>zz", { desc = "Scroll down and center" })
 vim.keymap.set("n", "<C-u>", "<C-u>zz", { desc = "Scroll up and center" })
 
+for c in ("abcdefghijklmnopqrstuvwxyz"):gmatch(".") do
+	vim.keymap.set("n", "'" .. c, "'" .. c .. "zz", { desc = "Jump to mark " .. c })
+end
+
 vim.keymap.set("n", "<leader>fe", function()
 	local lines = vim.api.nvim_buf_get_lines(0, 0, -1, false)
 	for i, line in ipairs(lines) do
