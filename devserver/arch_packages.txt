@@ -6,6 +6,7 @@ bluetui
 bluez
 bluez-utils
 bottom
+brightnessctl
 btop
 cava
 clang
@@ -43,6 +44,7 @@ nano
 neovim
 network-manager-applet
 networkmanager
+nmap
 ntfs-3g
 nvidia-open
 nvidia-prime
@@ -72,8 +74,13 @@ ttf-jetbrains-mono-nerd
 ufw
 unzip
 vim
+visual-studio-code-bin
 waybar
+websocat
 wget
+wiremix
+wireshark-cli
+wireshark-qt
 wl-clipboard
 woff2-font-awesome
 xdg-desktop-portal-gtk
