@@ -5,9 +5,6 @@ return {
 	priority = 1000,
 	build = ":TSUpdate",
 	config = function()
-	    require("nvim-treesitter").setup({
-	    })
-
 	    require("nvim-treesitter").install({
 		"c", "lua", "vim", "vimdoc", "query", "markdown", "markdown_inline",
 		"javascript", "typescript", "html", "bash", "go", "gomod", "gosum", "cpp", "rust"
@@ -16,21 +13,16 @@ return {
 	    vim.api.nvim_create_autocmd("FileType", {
 		callback = function()
 		    pcall(vim.treesitter.start)
-		end,
-	    })
-
-	    vim.opt.foldmethod = "expr"
-	    vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
-	    vim.opt.foldenable = false 
-
-	    vim.api.nvim_create_autocmd("FileType", {
-		callback = function()
 		    local ok, _ = pcall(require, "nvim-treesitter")
 		    if ok then
 			vim.bo.indentexpr = "v:lua.require'nvim-treesitter'.indentexpr()"
 		    end
 		end,
 	    })
+
+	    vim.opt.foldmethod = "expr"
+	    vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
+	    vim.opt.foldenable = false
 	end
     },
     {
